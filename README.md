@@ -48,3 +48,15 @@ or
 http://localhost:8080/hello-world?name=Successful+Dropwizard+User
 
 and have a peek at the Admin Interface at http://localhost:8081/
+
+
+
+Build container with:
+```
+docker build -t dropwizard-helloworld .
+```
+
+Run it with:
+```
+docker run -p 8080:8080 dropwizard-helloworld
+```
